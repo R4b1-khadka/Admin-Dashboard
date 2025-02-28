@@ -1,0 +1,39 @@
+header {
+  background-color: lightblue;
+  grid-column: 2/-1;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.notifications-button {
+  width: 25px;
+}
+.header {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.header-flex {
+  display: flex;
+  align-items: center;
+}
+input {
+  height: 2.2em;
+  width: 40vw;
+  border-radius: 20px;
+  background-color: rgb(220, 214, 214);
+}
+
+.bottom-right {
+  justify-content: space-evenly;
+  /* align-items: center; */
+}
+.main-profile img {
+  border-radius: 40px;
+}
+
+button {
+  background-color: rgb(18, 147, 190);
+  color: white;
+  padding: 0.5em 2em;
+  border-radius: 1em;
+  font-weight: 600;
+}

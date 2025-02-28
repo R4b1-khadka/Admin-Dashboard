@@ -1,0 +1,45 @@
+main {
+  background-color: lightpink;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  padding: 1em;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.project-card {
+  background-color: rgb(75, 139, 139);
+  height: 200px;
+  padding: 1em;
+  padding-top: 1.4em;
+  box-shadow: -4px 0px 0px 0px rgb(0, 0, 0);
+  border-radius: 12px;
+}
+.announcement-card {
+  background-color: lightgrey;
+}
+.trending-card {
+  background-color: lightseagreen;
+}
+.project-title {
+  font-weight: 600;
+  font-size: 1.2em;
+}
+.card {
+  padding: 1em;
+  border-radius: 5px;
+}
+.profile-card {
+  display: flex;
+  margin: 1em auto;
+}
+
+.profile-card img {
+  height: 42px;
+  border-radius: 24px;
+  margin-right: 1em;
+}
