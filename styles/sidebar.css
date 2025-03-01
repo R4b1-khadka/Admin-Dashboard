@@ -1,17 +1,32 @@
 sidebar {
-  background-color: lightgray;
+  background-color: rgb(23, 181, 234);
 
   grid-row: 1/-1;
   grid-column: 1;
   display: flex;
   flex-direction: column;
+
+  z-index: 2;
 }
 sidebar > div {
   padding: 1em 1em;
 }
-sidebar > div > ul {
-  list-style-type: none;
+
+.info-icon svg {
+  height: 1.5em;
+  fill: white;
 }
-.dashboard-svg {
-  width: 42px;
+.info-icon {
+  display: flex;
+  align-items: center;
+  font-size: 1.2em;
+  font-weight: 600;
+  gap: 1em;
+  color: white;
+  margin: 10px 4px;
+}
+
+.dashboard-icon svg {
+  height: 2.4em;
+  fill: white;
 }
